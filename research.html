@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Ankit Gupta - Research</title>
+  <meta name="description" content="Ankit Gupta's website" />
+  <meta name="keywords" content="Ankit Gupta, gptankit, personal, work, interests" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="style/favicon.ico" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <h1><a href="index.html">Ankit Gupta</a></h1>        
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <li><a href="index.html">About</a></li>
+          <li><a href="opensource.html">Open Source</a></li>
+          <li class="selected"><a href="research.html">Research</a></li>
+          <li><a href="writing.html">Writing</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div id="content">
+        <h1>Research</h1>       
+          <ul id="items">
+            <li>Adaptive Request Modeling in Clusters during Adverse States</li>
+            <p>Published research paper that introduces methods to adapt to adverse cluster states in order to maximize success probability
+              of http/tcp requests to the cluster. Two methods are talked about in the paper namely - <b>Probabilistic Request Dispatch</b> and <b>Request Buffering</b>.
+            </p>
+            <p>
+              <b>Abstract</b>: A distributed system consists of multiple nodes that share incoming
+              load among themselves. In a centrally coordinated environment, the responsibility falls 
+              on a gateway to manage request dispatch to this cluster of nodes. In this paper, we propose
+              an adaptive and unified approach to request dispatch to enhance decision making capabilities 
+              of such a gateway in case of partial and total cluster shutdown states. Using the described
+              algorithms as a base, we derive a formula for landing probability on a node and explore 
+              its implication on various cluster states. We also show, via graphs, the request dispatch 
+              pattern when using this approach with adverse cluster states.
+            </p>
+            <li>Improved Range Approximation in BLE Receivers</li>
+            <p>Published public proposal for improving range approximation in BLE (Bluetooth Low Energy) receivers. 
+              The relation between path attenuation and distance is derived using power formulas and equation parameters
+              are calculated using experiments and multiple regressions.
+            </p>
+            <p>
+              <b>Abstract</b>: A BLE (short for Bluetooth Low Energy) transmitter is a radio-based system used
+              to transfer a few bytes of pre-programmed data to any other BLE device capable of receiving 
+              it. It relays a set of radio waves with frequency range of 2.4 GHz which consists of 
+              encoded information about fields necessary to recognize this device and make subsequent 
+              connections work. As with any energy transfer, there is bound to be a dissipation in its 
+              strength as the distance from the source increases. This power loss is usually caused by 
+              interference, diffraction or absorption of the transmitted signal. In this article, I am 
+              going to share my findings and derive the relation of power attenuation with the distance
+              of the receiver from the source.        
+            </p>
+          </ul>
+      </div>
+    </div>    
+  </div>
+  <div id="footer">
+    &copy; Ankit Gupta 2020
+  </div>
+</body>
+</html>
