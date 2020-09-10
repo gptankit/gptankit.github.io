@@ -79,7 +79,9 @@ ol li
 { padding-bottom: 20px;}
 
 #header
-{ background: transparent;
+{ float:left;
+  width:100%;
+  background: transparent;
   height: 170px;}
 
 #logo
